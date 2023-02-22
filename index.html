@@ -9,11 +9,22 @@
 </head>
 <body>
 
-    <div class="form">
-        
-
+    <form action='javascript:void(0)' method="post" >
+        <div>
+            <label for="">Username: </label><br>
+            <input type="text" placeholder="username" id="username">
+        </div>
     
-    </div>
+        <div>
+            <label for="">password: </label><br>
+            <input type="password" placeholder="password" id="password">
+        </div>
+        <div class="btn">
+        <button type="submit" onClick="new Profile(username, password).getrofile();" >submit</button>
+        </div>
+
+        
+    </form>
 
 
     <script src="./script.js"></script>
